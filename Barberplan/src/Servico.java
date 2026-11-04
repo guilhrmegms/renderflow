@@ -9,7 +9,7 @@ import java.util.Map;
  * ============================================================
  *
  * Representa um serviço oferecido pela barbearia,
- * por exemplo: Corte de cabelo por R$ 35,00.
+ * por exemplo: Corte de cabelo por R$ 25,00.
  */
 public class Servico {
 
@@ -31,10 +31,10 @@ public class Servico {
 
         List<Servico> servicos = new ArrayList<>();
 
-        servicos.add(new Servico("Corte de cabelo", 35.00));
+        servicos.add(new Servico("Corte de cabelo", 25.00));
         servicos.add(new Servico("Barba", 25.00));
-        servicos.add(new Servico("Corte + Barba", 55.00));
-        servicos.add(new Servico("Pezinho", 15.00));
+        servicos.add(new Servico("Corte + Barba", 45.00));
+        servicos.add(new Servico("Pezinho", 10.00));
         servicos.add(new Servico("Sobrancelha", 10.00));
         servicos.add(new Servico("Massagem relaxante", 60.00));
 

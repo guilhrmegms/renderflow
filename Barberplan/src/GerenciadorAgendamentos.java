@@ -212,7 +212,7 @@ public class GerenciadorAgendamentos {
                 }
 
                 Agendamento agendamento =
-                        Agendamento.deJson((Map<String, Object>) item);
+                    Agendamento.deJson((Map<?, ?>) item);
 
                 if (agendamento != null) {
 

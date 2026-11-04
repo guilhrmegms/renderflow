@@ -10,8 +10,8 @@ import java.util.Map;
  *
  * Representa um agendamento realizado na barbearia.
  *
- * Diferente da versão de console, agora cada agendamento
- * tem um id, que é usado pelo frontend para cancelar.
+ * Cada agendamento possui um ID usado para identificá-lo
+ * nas operações do menu, como o cancelamento.
  */
 public class Agendamento {
 
@@ -41,8 +41,8 @@ public class Agendamento {
     /**
      * Converte o agendamento em um mapa pronto para virar JSON.
      *
-     * Data sai no formato AAAA-MM-DD e horário no formato HH:mm,
-     * que são os formatos que o JavaScript entende nativamente.
+    * Data e horário são convertidos para texto pelo formato padrão
+    * de LocalDate e LocalTime antes de serem gravados no JSON.
      */
     public Map<String, Object> paraJson() {
 
@@ -63,7 +63,7 @@ public class Agendamento {
      *
      * @return o agendamento, ou null se o dado estiver incompleto.
      */
-    public static Agendamento deJson(Map<String, Object> mapa) {
+    public static Agendamento deJson(Map<?, ?> mapa) {
 
         try {
             int id = ((Number) mapa.get("id")).intValue();
