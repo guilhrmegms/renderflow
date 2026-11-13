@@ -2,6 +2,7 @@
 
 Sistema simples de agendamento para barbearia, desenvolvido em Java.
 
+
 ## Funcionalidades
 
 - Cadastro de agendamento com nome, telefone, serviço, data e horário
@@ -58,3 +59,11 @@ Depois, o agendamento é guardado e pode ser consultado pela opção de listagem
 - O sistema usa arrays com capacidade limitada para armazenar agendamentos.
 - Os serviços iniciais cadastrados são: Corte, Barba e Corte + Barba.
 - O projeto é acadêmico e pode ser expandido com persistência em banco de dados, validação de campos e interface gráfica.
+
+## DESENVOLVIDO POR
+
+- Guilherme Gomes
+- João Felipe
+- Denny Franco
+- Henrique
+- Igor
