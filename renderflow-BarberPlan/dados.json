@@ -1,0 +1,14 @@
+{
+  "usuarios": [
+    {"nome": "Barbeiro", "telefone": "", "login": "barbeiro", "perfil": "BARBEIRO"},
+    {"nome": "Administrador", "telefone": "", "login": "administrador", "perfil": "ADMINISTRADOR"},
+    {"nome": "joao1", "telefone": "484848484", "login": "joao123", "perfil": "CLIENTE"}
+  ],
+  "servicos": [
+    {"nome": "Corte", "preco": 25.0},
+    {"nome": "Barba", "preco": 20.0},
+    {"nome": "Corte + Barba", "preco": 45.0}
+  ],
+  "agendamentos": [
+  ]
+}
